@@ -16,6 +16,25 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: #f0f0f0;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
 main {
     padding: 2em;
 }
@@ -60,3 +79,6 @@ footer {
     margin: auto;
 }
 
+.final a {
+    color: black;
+}
