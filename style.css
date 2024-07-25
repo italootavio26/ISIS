@@ -16,6 +16,11 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
+i {
+    text-decoration: underline;
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -48,7 +53,7 @@ main {
 }
 
 .capitulo h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 .capitulo img {
@@ -56,6 +61,25 @@ main {
     height: auto;
     display: block;
     margin-bottom: 1em;
+}
+
+h2#img1 {
+    background-image: url(imagens-Copia/imagem-n1.jpg);
+    position: center;
+    background-size: cover;
+}
+
+h2#img2 {
+    background-image: url(imagens-Copia/foto-pt1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+h2#img3 {
+    background-image: url(imagens-Copia/olho-dela.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
