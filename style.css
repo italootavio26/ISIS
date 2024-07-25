@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background: #ffba3a;
+    color: whitesmoke;
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 2em;
+}
+
+.capitulo {
+    margin-bottom: 2em;
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.capitulo h2 {
+    color: #333;
+}
+
+.capitulo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+footer {
+    background: #ffba3a;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
